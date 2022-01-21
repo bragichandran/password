@@ -1,11 +1,11 @@
 package org.hub;
 
 public class GitHub {
-	public void login() {
-		System.out.println("login");
+	public void loginusername() {
+		System.out.println("username");
 	}
  public static void main(String[] args) {
 	GitHub g = new GitHub();
-	g.login();
+	g.loginusername();
 }
 }
